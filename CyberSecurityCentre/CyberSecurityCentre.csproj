@@ -88,11 +88,73 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\contactform\contactform.js" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\cover.jpg" />
+    <Content Include="assets\img\csc font.png" />
+    <Content Include="assets\img\CSC.PNG" />
+    <Content Include="assets\img\CSClogo.png" />
+    <Content Include="assets\img\csc_black.png" />
+    <Content Include="assets\img\csc_red.png" />
+    <Content Include="assets\img\cyber.jpg" />
+    <Content Include="assets\img\gadgets.png" />
+    <Content Include="assets\img\logo-nav.png" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\parallax-bg.jpg" />
+    <Content Include="assets\img\porf-1.jpg" />
+    <Content Include="assets\img\porf-2.jpg" />
+    <Content Include="assets\img\porf-3.jpg" />
+    <Content Include="assets\img\porf-4.jpg" />
+    <Content Include="assets\img\porf-5.jpg" />
+    <Content Include="assets\img\porf-6.jpg" />
+    <Content Include="assets\img\porf-7.jpg" />
+    <Content Include="assets\img\porf-8.jpg" />
+    <Content Include="assets\img\team-1.jpg" />
+    <Content Include="assets\img\team-2.jpg" />
+    <Content Include="assets\img\team-3.jpg" />
+    <Content Include="assets\img\team-4.jpg" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\lib\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\lib\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\lib\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\lib\counterup\counterup.min.js" />
+    <Content Include="assets\lib\easing\easing.js" />
+    <Content Include="assets\lib\easing\easing.min.js" />
+    <Content Include="assets\lib\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\lib\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\lib\jquery\jquery-migrate.min.js" />
+    <Content Include="assets\lib\jquery\jquery.min.js" />
+    <Content Include="assets\lib\lockfixed\lockfixed.min.js" />
+    <Content Include="assets\lib\parallax\parallax.js" />
+    <Content Include="assets\lib\stellar\stellar.min.js" />
+    <Content Include="assets\lib\stickyjs\sticky.js" />
+    <Content Include="assets\lib\superfish\hoverIntent.js" />
+    <Content Include="assets\lib\superfish\superfish.js" />
+    <Content Include="assets\lib\superfish\superfish.min.js" />
+    <Content Include="assets\lib\tether\css\tether-theme-arrows-dark.css" />
+    <Content Include="assets\lib\tether\css\tether-theme-arrows-dark.min.css" />
+    <Content Include="assets\lib\tether\css\tether-theme-arrows.css" />
+    <Content Include="assets\lib\tether\css\tether-theme-arrows.min.css" />
+    <Content Include="assets\lib\tether\css\tether-theme-basic.css" />
+    <Content Include="assets\lib\tether\css\tether-theme-basic.min.css" />
+    <Content Include="assets\lib\tether\css\tether.css" />
+    <Content Include="assets\lib\tether\css\tether.min.css" />
+    <Content Include="assets\lib\tether\js\tether.js" />
+    <Content Include="assets\lib\tether\js\tether.min.js" />
+    <Content Include="assets\lib\waypoints\waypoints.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,6 +163,9 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,7 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
